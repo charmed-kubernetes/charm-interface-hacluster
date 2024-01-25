@@ -22,7 +22,7 @@ from setuptools import setup, find_packages
 
 version = "0.0.1.dev1"
 
-extra_requires =[
+extra_requires = [
     'charmhelpers',
 ]
 
