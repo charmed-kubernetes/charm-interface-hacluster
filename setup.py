@@ -21,8 +21,12 @@ from __future__ import print_function
 from setuptools import setup, find_packages
 
 version = "0.0.1.dev1"
-install_require = [
+
+extra_requires = [
     'charmhelpers',
+]
+
+install_require = [
     'ops',
 ]
 
@@ -35,4 +39,5 @@ setup(
     packages=find_packages(exclude=["unit_tests"]),
     zip_safe=False,
     install_requires=install_require,
+    extra_requires=extra_requires,
 )
